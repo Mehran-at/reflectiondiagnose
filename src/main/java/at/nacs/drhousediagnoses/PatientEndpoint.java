@@ -12,7 +12,6 @@ import java.util.Optional;
 public class PatientEndpoint {
     public class PatientManager {
 
-
         private final at.nacs.drhousediagnoses.PatientManager manager;
 
         @GetMapping
