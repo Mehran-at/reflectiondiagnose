@@ -14,6 +14,8 @@ public class PatientEndpoint {
 
         private final at.nacs.drhousediagnoses.PatientManager manager;
 
+
+
         @GetMapping
         List<Patient> getAll() {
             return getAll();
